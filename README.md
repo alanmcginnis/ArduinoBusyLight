@@ -16,7 +16,7 @@ The while loop counts how long the switch has been pressed and then sets the col
 
 [Schematic for RGB LED](schematics/rgb-led.pdf)
 
-The LED is connected to pins 3,5,6. The rgb legs of the led are connected to the pins in this order (Red-3,Green-5,Blue-6). 
+The LED is connected to pins 3,5,6. The RGB legs of the led are connected to the pins in this order (Red-3,Green-5,Blue-6). 
 
 The ground pin is connected to the ground of the momentary switch, both connect to the ground on the RedBoard.
 
@@ -26,7 +26,7 @@ The common terminal on the switch is connected to pin 2 on the RedBoard.
 
 #### Case
 
-The case is just a wooden box from the local craft store that I drilled some holes into for the power cord and the arcade button. I made some risers for the circuit board and the RedBoard to make room for routing wires.
+The case is just a wooden box from the local craft store that I drilled some holes into for the power cord and the arcade button. I made some risers for the circuit board and the RedBoard to make room for routing wires. Both of the risers are velcroed to the bottom of the case for easy removal/repair.
 
 #### Images
 
