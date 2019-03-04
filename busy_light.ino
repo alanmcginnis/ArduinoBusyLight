@@ -37,10 +37,10 @@ void setup() {
 void loop() {
 
   //Record *roughly* the tenths of seconds the button in being held down
-  while (digitalRead(buttonPin) == LOW ){ 
-    delay(100);  //if you want more resolution, lower this number 
-    pressLength_milliSeconds = pressLength_milliSeconds + 100;   
-  }//close while
+  while (digitalRead(buttonPin) == LOW ){
+    delay(100);  //if you want more resolution, lower this number
+    pressLength_milliSeconds = pressLength_milliSeconds + 100;
+  }
 
 
   //Different if-else conditions are triggered based on the length of the button press
@@ -49,9 +49,9 @@ void loop() {
   //Turn Light Off
   if (pressLength_milliSeconds >= off_milliSeconds){
     setColor(0,0,0);
-  } 
+  }
 
-  // Set Color to Yellow
+  // Set Color to Blue
   else if(pressLength_milliSeconds >= blue_milliSeconds){
     setColor(0,0,255);
   }
